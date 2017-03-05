@@ -8,10 +8,64 @@ description:
 image: https://unsplash.it/2000/1200?image=1003
 image-sm: https://unsplash.it/500/300?image=1003
 ---
-                                      Deneme 
-				deneme
-koray
+                              
 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+KRİPTOLOJİ
+Kriptoloji, şifre bilimidir. Çeşitli iletilerin, yazıların belli bir sisteme göre şifrelenmesi, bu        mesajların güvenlikli bir ortamda alıcıya iletilmesi ve iletilmiş mesajın deşifre edilmesidir.
+
+Kriptoloji; askeri kurumlardan, kişiler arası veya özel devlet kurumları arasındaki iletişimlerden, sistemlerin oluşumunda ve işleyişindeki güvenlik boşluklarına kadar her türlü dalla alakalıdır.
+
+
+Kriptoloji bilimi kendi içerisinde iki farklı branşa ayrılır.
+Kriptograf: Belgelerin şifrelenmesi ve şifresinin çözülmesi için kullanılan yöntemlere verilen addır.
+
+Kriptoanaliz: Kriptografik sistemlerin kurduğu mekanizmaları inceler ve çözmeye çalışır. Kriptoanalizin kriptoloji içindeki önemi çok büyüktür çünkü ortaya konan bir şifreleme sistemini inceleyerek, zayıf ve kuvvetli yönlerini ortaya koymak için kriptoanaliz kullanılır.
+
+Kriptoloji, çok eski ve renkli bir geçmişe sahiptir.
+
+Kriptografinin Türkçe adı şifre yazımıdır. Kriptografi Yunanca gizli anlamına gelen “kriptos” ve yazı anlamına gelen “graphi” dan türetilmiştir. Kriptoloji ise şifre bilimidir.     
+
+İlk kriptolog, 4000 yıl önce yaşamış Mısırlı bir kâtiptir. O, efendisinin hayatını anlatırken hiyeroglifleri şifrelenmiş bir şekilde oluşturmuştu ve bazı hiyeroglifler daha önce hiç kullanılmamıştı.
+
+Dönemin en önde uygarlığı olan Çin'de ise yazının şifresiz yazılmasının bile çok zor olması nedeniyle kriptografi hiç gelişemedi.
+
+Daha sonraları (M.Ö 5. - 6. yüzyıl) askeri istihbaratta gizlilik gerekmesi nedeniyle, kriptografi askeri alana girdi. Askeri alandaki ilk kriptograflar Spartalılardır.
+Kriptografinin Önemi
+Modern kriptografinin ilgilendiği ana konular şunlardır:
+    
+Gizlilik: Bilgi     istenmeyen kişiler tarafından anlaşılamaz.
+    
+Bütünlük:     Bilgi saklanması veya iletilmesi sırasında, farkına varılmadan değiştirilemez.
+    
+Reddedilemezlik: Bilgiyi oluşturan ya da gönderen, daha sonra bilgiyi kendisinin oluşturduğunu veya gönderdiğini inkar edemez.
+    
+    Kimlikbelirleme:Gönderen ve alıcı, birbirlerinin kimliklerini doğrulayabilirler.
+
+KULLANIM ALANLARI
+
+
+İletişim kurmak isteyen iki kişinin bir birlerine e-posta aracılığı ile ileti göndermesini göz önünde tutalım. Bu iletiler birçok bilgisayardan geçmektedir. A kullanıcısından B kullanıcısına gittiğinde daha önce açılıp okunmadığını veya açılıp üstünde değişiklik yapmadığını bilemeyiz. Bu yüzden devreye kriptolama girmektedir. Kripto teknikleri genelde bu yazıyı daha önce hazırlanmış bir algoritma ile şifreli bir metin haline getirir. Örnek olarak buna Sezar şifresi diyebiliriz.
+
+
+
+Sezar şifrelemesi
+
+Tarihin ilk kriptolojik fikirleri İngilizce'de transposition and substitution cipher adını taşır, yani yer değiştirme ve harf değiştirme şifrelemesi. Bu yöntemlerden ilki bir yazıdaki harflerin yerlerini değiştirerek, ikincisi ise harfleri başka harflerle değiştirerek elde edilir. Bu şifrelemeyi kullanan belki de en ünlü teknik Sezar Şifresi'dir: Bu şifrede, her harf o harften birkaç sonraki harf kullanılarak yazılır. Örneğin, 3 harf atlamalı Sezar Şifresi'nde "deneme" yerine "ghrhph" yazılır.
+
+    
+Kaba kuvvet     (brute-force) saldırısıyla çok kolay çözülür. Çünkü Şifreleme/Şifre çözme yöntemi gizli değildir.
+    
+Sadece 25 (Latin  alfabesi harf sayısı) farklı deneme yeterlidir. (Anahtar uzayı     25 elemanlıdır.)
+    
+Düz metin (plaintext)     ve formatı gizli değildir.
+Harf değiştirme şifrelemelerinde toplam 26! farklı şifre tablosu vardır.
+
+
+                                        Rotor makinesi
+Sezar şifrelemesinin ardından en popüler şifreleme yöntemlerden biri Rotasyonel Şifreleme (İngilizce Rotor Machine) olmuştur. Bu makinelerin en popüler örneği, Nazi Almanyası'nın II. Dünya Savaşı sırasında kullandığı Enigma makinesi adlı cihazdır.
+Nazilerin 1940–1944 savaşında kullandıkları ünlü Enigma şifreleme makinası 116 bitlik bir anahtar uzunluğuna sahipti. Yani bugünün sağlam şifreleme algoritmalarının kullandıkları boyda idi.
+Rotasyonel şifre makinesinin en önemli özelliği, birkaç rotor'un bir araya getirilmesiyle birlikte şifrelemenin dinamik olarak değiştirilebilmesidir: örneğin, ilk harfler bir şifreleme çeşidi, ikinci harfler başka bir şifreleme çeşidi, üçüncü harfler ise başka bir şifreleme çeşidiyle şifrelenebilir.
+Bu tür şifrelemelerin kırılması için en popüler harfler yerine en popüler harf sekansları bilinmelidir; örneğin İngilizce'de NG ve ST harflerine arka arkaya sık rastlanır.
+
